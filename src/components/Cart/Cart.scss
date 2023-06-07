@@ -1,0 +1,99 @@
+/* -------------cart items--------- */
+
+.cart-page {
+  margin: 80px auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+th {
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  padding: 10px;
+  color: #fff;
+  background-color: rgb(201, 198, 104);
+  font-weight: 400;
+}
+td {
+  padding: 10px 5px;
+}
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a {
+  color: #ff523b;
+  font-size: 12px;
+}
+td img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.totalprice {
+  display: flex;
+  justify-content: flex-end;
+}
+.totalprice table {
+  border-top: 3px solid #a79d51;
+  width: 100%;
+  max-width: 400px;
+}
+td:last-child {
+  text-align: right;
+}
+
+.searchbar-bar {
+  width: 100%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+.search-bar input {
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+  padding: 24px 20px;
+  font-size: 20px;
+  color: #cac7ff;
+}
+.search-bar button {
+  border: 0;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+}
+.search-bar button img {
+  width: 25px;
+}
+
+.cart-buttons {
+  display: flex;
+  justify-content: center;
+
+  button {
+    background-color: #4b4938;
+    width: 150px;
+    margin: 20px;
+  }
+  .disabled {
+    background-color: rgb(168, 167, 167);
+    &:hover {
+      transform: unset;
+      transition: unset;
+    }
+  }
+}
