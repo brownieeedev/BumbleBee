@@ -90,6 +90,7 @@ td:last-child {
     margin: 20px;
   }
   .disabled {
+    cursor: not-allowed;
     background-color: rgb(168, 167, 167);
     &:hover {
       transform: unset;
